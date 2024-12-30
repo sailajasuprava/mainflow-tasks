@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-// eslint-disable-next-line react/prop-types
 function Form({ setItems }) {
   const [name, setName] = useState("");
   const [price, setPrice] = useState("");
